@@ -10,7 +10,7 @@ module top (
     output dram_rst_l,
     output dram_cs_l,
 
-    output [4:0] dram_debug,
+    //output [4:0] dram_debug,
 
     input rx,
     output tx,

@@ -1,0 +1,29 @@
+set_io --warn-no-port leds[4] 21
+set_io --warn-no-port leds[3] 23
+set_io --warn-no-port leds[2] 25
+set_io --warn-no-port leds[1] 27
+set_io --warn-no-port leds[0] 26
+
+set_io --warn-no-port clk 35
+#set_io --warn-no-port dram_debug[0] 44
+#set_io --warn-no-port dram_debug[1] 45
+#set_io --warn-no-port dram_debug[2] 47
+#set_io --warn-no-port dram_debug[3] 48
+#set_io --warn-no-port dram_debug[4] 56
+
+set_io --warn-no-port rx   6
+set_io --warn-no-port tx   9
+
+set_io --warn-no-port dram_dq[0] 34
+set_io --warn-no-port dram_dq[1] 36
+set_io --warn-no-port dram_dq[2] 46
+set_io --warn-no-port dram_dq[3] 2
+set_io --warn-no-port dram_dq[4] 48
+set_io --warn-no-port dram_dq[5] 28
+set_io --warn-no-port dram_dq[6] 32
+set_io --warn-no-port dram_dq[7] 36
+set_io --warn-no-port dram_rwds 46
+set_io --warn-no-port dram_ck 42
+set_io --warn-no-port dram_rst_l 45
+set_io --warn-no-port dram_cs_l 44
+
