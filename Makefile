@@ -7,7 +7,7 @@ SRC = top.v hyper_xface.v baudgen.v baudgen_rx.v uart_rx.v uart_tx.v
 all: $(PROJ).bin
 
 %.blif: $(SRC)
-	yosys -ql $*.log -p "synth_ice40 -top top -blif $@" $< $(ADD_SRC)
+	yosys -ql $*.log -p "synth_ice40 -top top -blif $@" $^ $(ADD_SRC)
 
 %.json: $(SRC)
 	yosys -ql $*.log -p 'synth_ice40 -top top -json $@' $^ $(ADD_SRC)
